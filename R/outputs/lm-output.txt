@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = tourismgrowth ~ economy + exchangerate + gdp + income, 
+    data = tourdata)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6.9364 -2.6519 -0.4117  2.2184 11.7087 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    6.2913     0.7871   7.993 1.31e-10 ***
+economy        0.6041     0.9346   0.646    0.521    
+exchangerate  -0.1218     0.3500  -0.348    0.729    
+gdp            0.1721     0.4261   0.404    0.688    
+income         0.1288     0.5566   0.231    0.818    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.037 on 52 degrees of freedom
+Multiple R-squared:  0.01148,	Adjusted R-squared:  -0.06455 
+F-statistic: 0.151 on 4 and 52 DF,  p-value: 0.9617
+
